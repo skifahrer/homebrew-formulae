@@ -7,4 +7,5 @@ cask 'oki-hiper-c-driver' do
   homepage 'http://www5.okidata.co.jp/JSHIS163.nsf/SearchView/7BF3B295CBFB44F349257ACC00285CAE?OpenDocument&charset=Shift_JIS'
 
   pkg 'Installer for OS X.pkg'
+  uninstall :pkgutil => 'com.okidata.hipercDriver.*'
 end

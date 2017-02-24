@@ -7,4 +7,5 @@ cask 'nxt-fantom-driver' do
   homepage 'https://www.lego.com/mindstorms/downloads'
 
   pkg 'NXT Fantom Drivers/MAC legodriver.pkg'
+  uninstall :pkgutil => 'com.ni.pkg.legodriver'
 end
