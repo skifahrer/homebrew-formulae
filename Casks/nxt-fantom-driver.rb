@@ -2,7 +2,7 @@ cask 'nxt-fantom-driver' do
   version '1.2.0'
   sha256 '642d76a58650f0c0d2673be545e03370181c607500f906ec923efceb11831b34'
 
-  url 'https://lc-www-live-s.legocdn.com/r/www/r/mindstorms/-/media/franchises/mindstorms%202014/downloads/firmware%20and%20software/nxt%20software/nxt%20fantom%20drivers%20v120.zip?l.r2=-964392510'
+  url 'https://raw.githubusercontent.com/skifahrer/nxt-fantom-driver/master/nxt-fantom-drivers-120.zip'
   name 'NXT Fantom Drivers'
   homepage 'https://www.lego.com/mindstorms/downloads'
 
